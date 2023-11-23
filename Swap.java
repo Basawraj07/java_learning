@@ -1,11 +1,14 @@
-class Swaping{
-public static void main(String[]args){
-	float num1 = 20.2f , num2 = 33.3f;
-	float temp = num1;
-	num1 = num2;
-	num2 = temp;
-	
-	System.out.println(num1);
-	System.out.println(num2);
+class Swapping{
+	public static void main(string[]args){
+		int num1 = 10;
+		int num2 = 20;
+		int temp = num1;
+		 num1 = num2;
+		 num2 = temp;
+
+		System.out.println(num1,num2);
+
+	}
 }
-}
+
+
