@@ -10,7 +10,7 @@ class Percentage{
 		int science = sc.nextInt();
 		int total = eng + maths + science;
 		
-		int percent = (total/300)*100; 
+		double percent = (total/300)*100; 
 		
 		System.out.println("your percentage is :"+percent+"%");
 	}
